@@ -1,0 +1,48 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Common */
+img {
+    width: 100%;
+}
+
+.container {
+    width: 1024px;
+    margin: auto;
+}
+
+/* Header */
+header {
+    background-color: #d2d2d2;
+}
+header .container {
+    text-align: center;
+}
+header .container > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+header .logo {
+    width: 150px;
+}
+header .menu {
+    list-style-type: none;
+}
+header .menu li {
+    display: inline-block;
+    padding: 0 10px;
+}
+header .menu a {
+    display: inline-block;
+    line-height: 70px;
+    color: #2b3b49;
+    text-decoration: none;
+    font-size: 23px;
+}
+header .menu li.current a {
+    border-bottom: 2px solid green;
+}
